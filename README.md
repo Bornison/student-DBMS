@@ -7,7 +7,7 @@ I built this to:
 - Understand how CRUD apps work in real life
 - Learn the full workflow of connecting a frontend with a database
 
-It's a stepping stone towards my dream of becoming a software engineer — and yes, I wrote every line of code myself ✌️
+It's a stepping stone towards my dream of becoming a software engineer 
 
 ---
 
