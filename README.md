@@ -1,6 +1,6 @@
 # Student Database Management System (DBMS)
 
-This is a **college-level PHP + MySQL project** developed by me, **Bornison**, a B.Tech CSE student from Manipur, India 🇮🇳. The goal of this project is to manage student records — add, update, delete — through a clean web interface.
+This is a **college-level PHP + MySQL project** developed by me, **Bornison**, a B.Tech CSE student from Manipur, India . The goal of this project is to manage student records — add, update, delete — through a clean web interface.
 
 I built this to:
 - Improve my backend skills in **PHP and MySQL**
