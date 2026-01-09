@@ -1,4 +1,4 @@
-# 👨‍💻 Student Database Management System (DBMS)
+# Student Database Management System (DBMS)
 
 This is a **college-level PHP + MySQL project** developed by me, **Bornison**, a B.Tech CSE student from Manipur, India 🇮🇳. The goal of this project is to manage student records — add, update, delete — through a clean web interface.
 
@@ -11,20 +11,20 @@ It's a stepping stone towards my dream of becoming a software engineer
 
 ---
 
-## 💡 Project Overview
+## Project Overview
 
 This is a basic **Student Record Management System**, where you can:
 
-✅ Add student details  
-✅ Edit or update existing records  
-✅ Soft-delete students (not permanent delete — just mark as deleted)  
-✅ View and manage the full student list  
+ Add student details  
+ Edit or update existing records  
+ Soft-delete students (not permanent delete — just mark as deleted)  
+ View and manage the full student list  
 
 No frameworks — just **core PHP, MySQL, and HTML/CSS**. All data is stored in a MySQL database.
 
 ---
 
-## 🧑‍🎓 Who Is This For?
+## Who Is This For?
 
 This project is perfect for:
 
@@ -35,7 +35,7 @@ This project is perfect for:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer     | Technology              |
 |-----------|--------------------------|
@@ -47,7 +47,7 @@ This project is perfect for:
 
 ---
 
-## 🧪 How to Run This Project
+##  How to Run This Project
 
 1. **Clone the Repo**
 ```bash
