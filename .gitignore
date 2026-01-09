@@ -1,0 +1,36 @@
+# PHP / Web Project Ignore 
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.tmp
+
+# Session / Cache
+tmp/
+cache/
+
+# Composer dependencies (if used)
+vendor/
+
+# Environment / config files
+.env
+config.php
+
+# Database files you don't want to commit
+*.sql
+*.sqlite
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Backup / temp files
+*.bak
+*.swp
+*.old
+*.orig
