@@ -33,4 +33,4 @@ config.php
 *.bak
 *.swp
 *.old
-*.orig
+*.orig 

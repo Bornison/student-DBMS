@@ -1,55 +1,99 @@
 # Student Database Management System (DBMS)
 
-This is a **college-level PHP + MySQL project** developed by me, **Bornison**, a B.Tech CSE student from Manipur, India . The goal of this project is to manage student records — add, update, delete — through a clean web interface.
+A college-level **Student Record Management System** developed in **PHP + MySQL**.  
+This system allows users to **add, edit, delete, and manage student records** through a simple web interface.
 
-I built this to:
-- Improve my backend skills in **PHP and MySQL**
-- Understand how CRUD apps work in real life
-- Learn the full workflow of connecting a frontend with a database
+Developed by **Bornison Okram**, B.Tech CSE student from Manipur, India.
 
-It's a stepping stone towards my dream of becoming a software engineer 
+## Project Goal
 
----
+The goal of this project is to:
+
+- Improve backend skills in **PHP** and **MySQL**  
+- Understand the full workflow of a **CRUD application**  
+- Learn to connect a frontend interface to a backend database  
+- Gain hands-on experience building real-world web applications  
+
+This project serves as a stepping stone toward becoming a **professional software engineer**.
 
 ## Project Overview
 
-This is a basic **Student Record Management System**, where you can:
+This system provides the following features:
 
- Add student details  
- Edit or update existing records  
- Soft-delete students (not permanent delete — just mark as deleted)  
- View and manage the full student list  
+- **Add student details** including name, roll number, and other info  
+- **Edit or update existing records**  
+- **Soft-delete students** (records are marked as deleted, not permanently removed)  
+- **View and manage** the full list of students  
+- Fully functional **web interface** with HTML/CSS, powered by PHP  
+- All data stored securely in a **MySQL database**  
 
-No frameworks — just **core PHP, MySQL, and HTML/CSS**. All data is stored in a MySQL database.
-
----
+No frameworks were used — only **core PHP, MySQL, and HTML/CSS**.
 
 ## Who Is This For?
+This project is ideal for:
 
-This project is perfect for:
-
-- Students learning PHP + MySQL
-- Beginners trying to build a working web app
-- College mini-project ideas
-- Anyone curious about backend logic
-
----
+- Students learning **PHP + MySQL**  
+- Beginners building **working web applications**  
+- College mini-project ideas  
+- Anyone curious about **backend logic** and database management  
 
 ## Tech Stack
+| Layer      | Technology                       |
+|------------|----------------------------------|
+| Frontend   | HTML, CSS                        |
+| Backend    | PHP                              |
+| Database   | MySQL                            |
+| Server     | Apache (XAMPP / LAMP)            |
+| Editor     | VS Code (Linux - Pop!_OS)        |
 
-| Layer     | Technology              |
-|-----------|--------------------------|
-| Frontend  | HTML, CSS                |
-| Backend   | PHP                      |
-| Database  | MySQL                    |
-| Server    | Apache (XAMPP / LAMP)    |
-| Editor    | VS Code (Linux - Pop!_OS)|
+## Project Structure
+├── backend
+│   ├── add_student.php
+│   ├── db_config.php
+│   ├── delete_student.php
+│   ├── edit_student.php
+│   ├── permanent_delete.php
+│   ├── recycle_bin.php
+│   ├── register_student.php
+│   ├── restore_student.php
+│   ├── test.db.php
+│   └── view_students.php
+├── db
+│   └── init.sql
+├── frontend
+│   ├── student_register.html
+│   └── style.css
+└── Readme.md
 
----
+# How to Run the Project
 
-##  How to Run This Project
-
-1. **Clone the Repo**
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/Bornison/student-dbms.git
 cd student-dbms
+
+# Features
+Add, Edit, and Soft-Delete Student Records
+Search and View All Students
+Clean, responsive HTML/CSS interface
+Database-driven backend with PHP + MySQL
+
+# Limitations
+No authentication system (anyone can access)
+Works only on local servers (XAMPP/LAMP)
+No advanced security features (SQL injection prevention is basic)
+
+# Future Enhancements
+Add login and role-based access
+Add profile pictures for students
+Implement search and filter by student attributes
+Move to a modern PHP framework (Laravel / Symfony)
+Deploy online using cloud hosting
+
+# Author
+Bornison Okram
+B.Tech Computer Science Student
+Linux & PHP Enthusiast
+
+# License
+This project is use for educational purposes only.
